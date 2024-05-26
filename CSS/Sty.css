@@ -1,0 +1,75 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: url(img/natureza.jpg);
+        color: #fff;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: aquamarine;
+}
+#login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Nome input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #101c20;
+    color:white;
+    margin-bottom: 15px;
+}
+.E-mail input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #101c20;
+    color: #fff;
+}
+.Senha input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #101c20;
+    color: #fff;
+    margin-top: 15px;
+}
+.Entrar input {
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(134, 243, 134);
+    color:#141414;
+}
+input::placeholder {
+    color: #b6b6b6;
+}
+h1 {
+    color: #FAFAFA;
+}
+.caixa {
+    margin-top: 80px;
+}
+input:focus {
+    outline: none;
+}
+.img {
+    position: absolute;
+    margin-top: 7px;
+    text-align: center;
+   }
+
+
